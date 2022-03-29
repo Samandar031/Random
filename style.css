@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Varela+Round&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  border-radius: 5px;
+}
+
+:root {
+  --text: #112a46;
+  --back: #acc8e5;
+}
+
+body {
+  background-color: var(--back);
+}
+
+.container {
+  background-color: var(--back);
+  color: var(--text);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  font-size: 40px;
+  width: 680px;
+  margin: 0 auto;
+}
+
+.number {
+  border: 2px solid var(--text);
+  padding: 20px 40px;
+}
+
+.number_input {
+  border: 2px solid var(--text);
+  padding: 10px;
+  background-color: var(--back);
+  width: 110px;
+  height: 90px;
+  font-size: 40px;
+  color: var(--text);
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  background-color: var(--text);
+  color: var(--back);
+}
