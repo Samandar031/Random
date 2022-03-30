@@ -13,6 +13,7 @@ one.textContent = a;
 two.textContent = b;
 
 btn.addEventListener("click", function () {
+  location.reload();
   if (a + b == input.value) {
     btn.style.backgroundColor = "green";
     alert("to'g'ri topdingiz");
